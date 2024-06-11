@@ -1,2 +1,2 @@
 ﻿# deployTest
-뉴 커밋
+ 커밋

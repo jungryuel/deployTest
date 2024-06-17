@@ -8,7 +8,7 @@ public class TestController {
 
     @GetMapping("/api/version")
     public String version() {
-        return "version 2";
+        return "v2";
     }
 
     @GetMapping("/actuator/health")

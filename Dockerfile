@@ -4,5 +4,5 @@ FROM openjdk:17-slim
 COPY ./build/libs/*T.jar app.jar
 # ENV profiles prod
 CMD ["java","-jar","app.jar"]
-EXPOSE 8081
+EXPOSE 8080
 # docker build .
